@@ -1,0 +1,58 @@
+@import './colors.css';
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 4.375rem 2rem;
+    background-color: var(--hero-bg);
+}
+header div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+header div img{
+    height: 100%;
+}
+header nav {
+    max-width: 30rem;
+    width: 100%;
+}
+header nav menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-left: 24px;
+    height: 100%;
+    list-style: none;
+}
+header nav menu a{
+    text-decoration: none;
+    color: var(--text);
+    transition-duration: 0.3s;
+    font-size: 1.5rem;
+}
+header nav menu a:hover{
+    transition-duration: 0.3s;
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width:550px) {
+    header {
+        padding: 2rem 1rem;
+    }
+    header nav {
+        max-width: 20rem;
+        width: 100%;
+    }
+    header div.wc{
+        height: 25px;
+        padding: 0;
+    }
+    header nav menu a{
+        font-size: 1rem;
+    }
+}
