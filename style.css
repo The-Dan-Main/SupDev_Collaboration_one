@@ -1,0 +1,29 @@
+@import './styling/colors.css';
+
+*, *:before, *:after {
+    margin: 0; 
+    box-sizing: inherit;  
+}
+html {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+/* Global cta */
+button {
+    background: rgb(101,226,217);
+    background: linear-gradient(90deg, var(--theme-accent-cayan) 40%, var(--theme-accent-blue) 100%);
+}
+
+/* typography */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--cta-bg);
+}
+h1, h2, h3, h4, h5, h6, button, header, nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+

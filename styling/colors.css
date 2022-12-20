@@ -1,0 +1,17 @@
+:root {
+    /* main theme colors*/
+    --theme-accent-cayan: #65e2d9;
+    --theme-accent-blue: #339ecc;
+    --theme-accent-light-red: #ff4242;
+
+    /* accent colors */
+    --error-text:var(--theme-accent-light-red);
+    --text:white;
+
+    /* background colors */
+    --main-bg:#181f2a;
+    --footer-bg:#0b1523;
+    --testimonials-bg:#202a3c;
+    /* header & hero and email background*/
+    --hero-bg:#1c2431; 
+}
