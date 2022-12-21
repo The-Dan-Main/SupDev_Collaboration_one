@@ -1,0 +1,55 @@
+@import './styling/colors.css';
+@import './styling/header.css';
+@import './styling/hero.css';
+
+*, *:before, *:after {
+    margin: 0; 
+    box-sizing: inherit;  
+}
+html {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 100%;
+    color: white;
+}
+
+/* Global cta */
+button {
+    border: none;
+    border-radius: 50px;
+    padding: 1.5rem 6rem;
+    color: var(--text);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: rgb(101,226,217);
+    background: linear-gradient(90deg, var(--theme-accent-cayan) 40%, var(--theme-accent-blue) 100%);
+    transition-duration: 0.3s;
+}
+button:hover {
+    cursor: pointer;
+    filter: brightness(110%);
+}
+button:active {
+    cursor: pointer;
+    filter: brightness(110%);
+    transform: translateY(5px);
+    scale: 0.98;
+}
+
+/* typography */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--cta-bg);
+}
+h1, h2, h3, h4, h5, h6, button, header, nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* helper classes */
+.wc {
+    max-width: 1280px;
+    width: 100%;
+}
+
