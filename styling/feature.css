@@ -1,0 +1,106 @@
+@import './colors.css';
+
+section#feature {
+    background-color: var(--main-bg);
+    display: flex;
+    padding: 5% 19%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 10vh;
+    justify-content: space-around;
+}
+
+section#feature figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    width: 37%;
+}
+
+section#feature figure p {
+    text-align: center;
+}
+
+section#feature figure img{
+    width: 15%;
+}
+
+section#stayProductive {
+    background-color: var(--main-bg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 10vh;
+    justify-content: space-around;
+    padding-bottom: 10vh;
+}
+
+section#stayProductive figure {
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+    width: 80%;
+    height: 55vh;
+}
+
+section#stayProductive figure img.stayProductive-mainImg {
+    padding: 5vh 0;
+}
+
+
+section#stayProductive div.side-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    width: 36%;
+    text-underline-offset: 10px;
+}
+
+section#stayProductive a {
+    text-underline-offset: 10px;
+    color: var(--theme-accent-cayan);
+}
+
+section#stayProductive h2 {
+    font-size: 2.5em;
+}
+
+section#stayProductive div img {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:550px) {
+    header {
+        padding: 2rem 1rem;
+    }
+    header nav {
+        max-width: 20rem;
+        width: 100%;
+    }
+    header div.wc{
+        height: 25px;
+        padding: 0;
+    }
+    header nav menu a{
+        font-size: 1rem;
+    }
+}

@@ -1,6 +1,7 @@
 @import './styling/colors.css';
 @import './styling/header.css';
 @import './styling/hero.css';
+@import './styling/feature.css';
 
 *, *:before, *:after {
     margin: 0; 
