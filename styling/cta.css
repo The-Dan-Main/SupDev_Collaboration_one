@@ -2,4 +2,66 @@
 
 section#cta {
   background-color: var(--main-bg);
+  text-align: center;
 }
+
+.bg-cta {
+  background-color: var(--cta-bg);
+  padding: 1.5em 3em;
+  box-shadow: 2px 2px 15px -3px #000;
+  border-radius: 8px;
+  margin: auto;
+  max-width: 60%;
+  min-width: 300px;
+}
+
+.text-cta h2 {
+  margin-top: 1em;
+  margin-bottom: .8em;
+}
+
+.text-cta p {
+  font-size: .7em;
+}
+
+.bg-cta form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 6%;
+}
+
+.bg-cta form input {
+  border-radius: 30px;
+  flex-grow: 3;
+  min-size: 40%;
+  padding-left: 30px;
+  min-height: 40px;
+  min-width: 225px;
+  margin-bottom: 7%;
+}
+
+.bg-cta form input::placeholder {
+  color: #AAA;
+}
+
+.bg-cta form button {
+  font-size: .9em;
+  padding: .8em 2.5em;
+  flex-grow: 1;
+  max-height: 40px;
+  min-width: 225px;
+}
+
+/* .dark-bg {
+  background-color: var(--footer-bg);
+  background-color: green;
+  height: 200px;
+  position: relative;
+  top: -20px;
+  left: -45%;
+  top: -150px;
+  width: 100vw;
+  z-index: 1;
+} */

@@ -3,6 +3,7 @@
 section#quotes {
   background-color: var(--main-bg);
   font-size: .9em;
+  padding-bottom: 10%;
 }
 
 .quotes-container {
@@ -14,9 +15,9 @@ section#quotes {
 }
 
 .quotes-img {
-margin-left: 12%;
-position: relative;
-top: 5px;
+  margin-left: 12%;
+  position: relative;
+  top: 5px;
 }
 
 section#quotes article {
