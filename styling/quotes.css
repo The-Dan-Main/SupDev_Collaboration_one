@@ -1,0 +1,5 @@
+@import './colors.css';
+
+section#quotes {
+  background-color: var(--main-bg);
+}

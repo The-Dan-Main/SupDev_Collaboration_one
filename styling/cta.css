@@ -1,0 +1,5 @@
+@import './colors.css';
+
+section#cta {
+  background-color: var(--main-bg);
+}

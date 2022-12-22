@@ -2,6 +2,9 @@
 @import './styling/header.css';
 @import './styling/hero.css';
 @import './styling/feature.css';
+@import './styling/quotes.css';
+@import './styling/cta.css';
+@import './styling/footer.css';
 
 *, *:before, *:after {
     margin: 0; 
