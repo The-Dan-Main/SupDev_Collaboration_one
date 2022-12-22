@@ -42,7 +42,7 @@ section#stayProductive figure {
     align-items: center;
     gap: 5vh;
     width: 80%;
-    height: 55vh;
+    justify-content: center;
 }
 
 section#stayProductive figure img.stayProductive-mainImg {
@@ -90,19 +90,12 @@ section#stayProductive div img {
 
 
 
-@media screen and (max-width:550px) {
-    header {
-        padding: 2rem 1rem;
+@media screen and (max-width:1300px) {
+    section#stayProductive div.side-text {
+        width: 60vw;
     }
-    header nav {
-        max-width: 20rem;
-        width: 100%;
-    }
-    header div.wc{
-        height: 25px;
-        padding: 0;
-    }
-    header nav menu a{
-        font-size: 1rem;
+    
+    section#stayProductive figure {
+        flex-wrap: wrap;
     }
 }
