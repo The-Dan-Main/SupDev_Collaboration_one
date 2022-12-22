@@ -2,4 +2,52 @@
 
 section#quotes {
   background-color: var(--main-bg);
+  font-size: .9em;
+}
+
+.quotes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin: 0 10%;
+}
+
+.quotes-img {
+margin-left: 12%;
+position: relative;
+top: 5px;
+}
+
+section#quotes article {
+  flex: 1;
+  min-width: 300px;
+  background-color: var(--testimonials-bg);
+  padding: 2em 2em .5em 2em;
+  border-radius: 8px;
+}
+
+section#quotes article:nth-of-type(1) {
+  margin-top: 0;
+}
+
+.writer {
+  display: flex;
+  margin: 1.7em 0;
+}
+
+.writer figure img {
+  border-radius: 50%;
+  height:30px;
+  margin-right: .9em;
+  margin-top: 5px;
+}
+
+.writer figcaption p:nth-of-type(1){
+  font-weight: bold;
+}
+
+.writer figcaption p:nth-of-type(2){
+  font-size: .7em;
+  margin-top: .5em;
 }
